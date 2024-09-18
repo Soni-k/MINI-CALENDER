@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: aquamarine;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 100vh;
+}
+
+.container {
+	background-color: white;
+	width: 300px;
+	text-align: center;
+	/* border: 2px solid black;
+	padding: 10px;
+	margin-bottom: 5px; */
+	border-radius: 10px;
+	box-shadow: 0 0 10px 0 black;
+
+}
+
+.month {
+	background-color: red;
+	height: 50px;
+	font-size: 2rem;
+	font-weight: bold;
+	color: white;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 0 0;
+}
+
+.week {
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+}
+
+.day {
+	/* background-color: blue; */
+	font-size: 5rem;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.year {
+	margin-bottom: 10px;
+	font-size: 1.2rem;
+}
